@@ -1,0 +1,39 @@
+.post-img{
+     /* height: 475px; */
+     overflow: hidden;
+     /* margin-top: 14px; */
+}
+.post-img img{
+     width: 100%;
+     opacity: .85;
+     margin: 4px 12px;
+}
+.blog-post-content h1{
+     /* background-color: rebeccapurple; */
+     text-align: center;
+}
+.row{
+     display: flex;
+
+}
+.blogpost-meta{
+     display: flex;
+     /* background-color: red; */
+     justify-content: space-between;
+}
+.author-info div{
+  padding: 4px 12px;
+  font-family: var(--font2);
+}
+.author-info{
+     margin: 4px 0px;
+}
+.more-post{
+flex-direction: column;
+
+align-items: center;
+
+}
+.home-article img span{
+     margin: 10px;
+}
