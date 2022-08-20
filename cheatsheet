@@ -1,0 +1,14 @@
+        These are the step which  is used to push site in github Account 
+
+touch .gitignore
+git config --global user.name "-----"
+git config --global user.email "------ "
+git init
+git add .
+git commit -m "----"
+git status  #just to see
+   generate key 
+ssh-keygen -t rsa -b 4096 -C "email-----"
+tail<path to id_rsa.pub>  # add this key to Github Account 
+git remote add orign <ssh url.git>
+git push origin master
